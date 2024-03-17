@@ -11,9 +11,13 @@ export const ForgotPassword: React.FC = () => (
         <input type="email" placeholder="Enter your email" className="forgot-password__input" />
       </label>
 
-      <button type="submit" className="forgot-password__submit">Send</button>
+      <button type="submit" className="forgot-password__submit">
+        Send
+      </button>
     </form>
 
-    <button type="button" className="forgot-password__cancel">Cancel</button>
+    <button type="button" className="forgot-password__cancel">
+      Cancel
+    </button>
   </div>
 );
