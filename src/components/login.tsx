@@ -30,33 +30,27 @@ export const Login: React.FC = React.memo(() => {
 
       <form className="login__form">
         <label>
-          <input
-            type="email"
-            value={email}
-            placeholder="Work email"
-            className="login__input"
-          />
+          <input type="email" value={email} placeholder="Work email" className="login__input" />
         </label>
 
         <label>
-          <input
-            type="password"
-            value={password}
-            placeholder="Password"
-            className="login__input"
-          />
+          <input type="password" value={password} placeholder="Password" className="login__input" />
         </label>
 
         <div className="login__forgot-link">
           <Link to="/">Forgot your password?</Link>
         </div>
 
-        <button type="submit" className="login__button-submit">Log in to Qencode</button>
+        <button type="submit" className="login__button-submit">
+          Log in to Qencode
+        </button>
       </form>
 
       <div className="login__sing-up">
         <p className="login__question">Is your company new to Qencode?</p>
-        <Link to="/" className="login__link-sing-up">Sing up</Link>
+        <Link to="/" className="login__link-sing-up">
+          Sing up
+        </Link>
       </div>
     </div>
   );

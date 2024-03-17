@@ -2,6 +2,7 @@ import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 import LoginPage from './pages/login-page';
 import { Layout } from '../components/layout';
+import ForgotPage from './pages/forgot-page';
 
 export const router = createBrowserRouter([
   {
@@ -11,6 +12,11 @@ export const router = createBrowserRouter([
       {
         index: true,
         element: <LoginPage />,
+      },
+
+      {
+        path: 'forgot',
+        element: <ForgotPage />,
       },
     ],
   },
