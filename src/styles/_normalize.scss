@@ -1,0 +1,47 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+p,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+article,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// input:-webkit-autofill,
+// input:-webkit-autofill:hover, 
+// input:-webkit-autofill:focus, 
+// input:-webkit-autofill:active  {
+//     -webkit-box-shadow: 0 0 0 30px white inset !important;
+//     -webkit-text-fill-color: #060E1E !important;
+// }
